@@ -1,6 +1,6 @@
 module HelloWorldSpec exposing (suite)
 
-import HelloWorld exposing (helloWorld)
+import HelloLogo exposing (helloWorld)
 import Msg
 import Test exposing (Test)
 import Test.Html.Event as Event
