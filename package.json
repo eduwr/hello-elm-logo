@@ -1,0 +1,25 @@
+{
+  "name": "hello-elm-logo",
+  "author": "Eduardo Wronscki",
+  "description": "Playing around with Elm and Vite",
+  "version": "1.5.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "dev": "vite",
+    "prebuild": "elm-tooling install",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "elm-review",
+    "test": "elm-test-rs"
+  },
+  "devDependencies": {
+    "elm-tooling": "^1.8.0",
+    "elm-review": "^2.7.4",
+    "vite": "^3.0.9",
+    "vite-plugin-elm": "^2.7.2"
+  },
+  "dependencies": {
+    "elm-debug-transformer": "^1.1.2"
+  }
+}
